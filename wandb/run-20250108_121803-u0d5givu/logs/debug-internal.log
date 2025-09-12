@@ -1,0 +1,21 @@
+{"time":"2025-01-08T12:18:03.832777399Z","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2025-01-08T12:18:03.832812968Z","level":"INFO","msg":"created symlink","path":"/sjxy004/platform/yolov8fire/wandb/run-20250108_121803-u0d5givu/logs/debug-core.log"}
+{"time":"2025-01-08T12:18:03.891722663Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2025-01-08T12:18:03.924766101Z","level":"INFO","msg":"created new stream","id":"u0d5givu"}
+{"time":"2025-01-08T12:18:03.924806705Z","level":"INFO","msg":"stream: started","id":"u0d5givu"}
+{"time":"2025-01-08T12:18:03.924838234Z","level":"INFO","msg":"handler: started","stream_id":{"value":"u0d5givu"}}
+{"time":"2025-01-08T12:18:03.924845445Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"u0d5givu"}}
+{"time":"2025-01-08T12:18:03.924841151Z","level":"INFO","msg":"sender: started","stream_id":{"value":"u0d5givu"}}
+{"time":"2025-01-08T12:18:04.580942263Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-01-08T12:18:04.602251922Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-08T12:22:44.738108342Z","level":"INFO","msg":"stream: closing","id":"u0d5givu"}
+{"time":"2025-01-08T12:22:44.738209295Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-08T12:22:44.742057037Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-08T12:22:45.092550096Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-01-08T12:22:45.092589612Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-01-08T12:22:45.092601517Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-01-08T12:22:46.211790142Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-08T12:22:46.671718408Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"u0d5givu"}}
+{"time":"2025-01-08T12:22:46.671794067Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"u0d5givu"}}
+{"time":"2025-01-08T12:22:46.671808985Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"u0d5givu"}}
+{"time":"2025-01-08T12:22:46.677838393Z","level":"INFO","msg":"stream: closed","id":"u0d5givu"}

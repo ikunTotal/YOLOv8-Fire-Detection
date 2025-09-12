@@ -1,0 +1,37 @@
+{
+  "os":  "Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.27",
+  "python":  "3.8.0",
+  "startedAt":  "2025-01-08T12:18:03.812814Z",
+  "program":  "train.py",
+  "codePath":  "train.py",
+  "email":  "kqsunn@yeah.net",
+  "root":  "/sjxy004/platform/yolov8fire",
+  "host":  "8p9emjuq6kgdf-0",
+  "username":  "root",
+  "executable":  "/usr/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  40,
+  "cpu_count_logical":  80,
+  "gpu":  "[]",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "2502718128128",
+      "used":  "120302575616"
+    }
+  },
+  "memory":  {
+    "total":  "269938475008"
+  },
+  "cpu":  {
+    "count":  40,
+    "countLogical":  80
+  },
+  "gpu_nvidia":  [
+    {
+      "memoryTotal":  "25436553216",
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "11.2"
+}

@@ -1,0 +1,22 @@
+{"time":"2025-01-08T12:37:11.48873009Z","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2025-01-08T12:37:11.488766215Z","level":"INFO","msg":"created symlink","path":"/sjxy004/platform/yolov8fire/wandb/run-20250108_123711-oby6ny89/logs/debug-core.log"}
+{"time":"2025-01-08T12:37:11.541735204Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2025-01-08T12:37:11.557045995Z","level":"INFO","msg":"created new stream","id":"oby6ny89"}
+{"time":"2025-01-08T12:37:11.557072687Z","level":"INFO","msg":"stream: started","id":"oby6ny89"}
+{"time":"2025-01-08T12:37:11.557115007Z","level":"INFO","msg":"handler: started","stream_id":{"value":"oby6ny89"}}
+{"time":"2025-01-08T12:37:11.557111744Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"oby6ny89"}}
+{"time":"2025-01-08T12:37:11.557126333Z","level":"INFO","msg":"sender: started","stream_id":{"value":"oby6ny89"}}
+{"time":"2025-01-08T12:37:12.062675776Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-01-08T12:37:12.081051339Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-08T14:35:49.625331334Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-08T14:35:49.63188026Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-08T14:35:54.630892696Z","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
+{"time":"2025-01-08T14:36:11.73602223Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-01-08T14:36:11.73629927Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-01-08T14:36:11.736312089Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-01-08T14:36:13.065305364Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-08T14:36:14.569390096Z","level":"INFO","msg":"stream: closing","id":"oby6ny89"}
+{"time":"2025-01-08T14:36:14.56940653Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"oby6ny89"}}
+{"time":"2025-01-08T14:36:14.569419744Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"oby6ny89"}}
+{"time":"2025-01-08T14:36:14.569438853Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"oby6ny89"}}
+{"time":"2025-01-08T14:36:14.574817232Z","level":"INFO","msg":"stream: closed","id":"oby6ny89"}
