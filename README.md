@@ -149,23 +149,7 @@ yolov8fire/
 └── transform_PGI.py            # Model conversion
 ```
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) for the base framework
-- [FireDetn Dataset](https://github.com/SuperXxts/FireDetn) for the fire detection dataset
-- The research community for attention mechanisms and mobile architectures
-
-## 📞 Contact
-
-For questions and support, please open an issue or contact [your-email@domain.com].
 
 ---
 
