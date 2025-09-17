@@ -1,0 +1,34 @@
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+Traceback (most recent call last):
+  File "train.py", line 8, in <module>
+    model.train(data='/sjxy004/datasets/fire/fire.yaml', #data='',
+  File "/sjxy004/platform/yolov8fire/ultralytics/engine/model.py", line 602, in train
+    self.trainer.train()
+  File "/sjxy004/platform/yolov8fire/ultralytics/engine/trainer.py", line 209, in train
+    self._do_train(world_size)
+  File "/sjxy004/platform/yolov8fire/ultralytics/engine/trainer.py", line 323, in _do_train
+    self._setup_train(world_size)
+  File "/sjxy004/platform/yolov8fire/ultralytics/engine/trainer.py", line 267, in _setup_train
+    self.amp = torch.tensor(check_amp(self.model), device=self.device)
+  File "/sjxy004/platform/yolov8fire/ultralytics/utils/checks.py", line 650, in check_amp
+    assert amp_allclose(YOLO("yolov8n.pt"), im)
+  File "/sjxy004/platform/yolov8fire/ultralytics/utils/checks.py", line 637, in amp_allclose
+    a = m(im, device=device, verbose=False)[0].boxes.data  # FP32 inference
+  File "/sjxy004/platform/yolov8fire/ultralytics/engine/model.py", line 156, in __call__
+    return self.predict(source, stream, **kwargs)
+  File "/sjxy004/platform/yolov8fire/ultralytics/engine/model.py", line 407, in predict
+    return self.predictor.predict_cli(source=source) if is_cli else self.predictor(source=source, stream=stream)
+  File "/sjxy004/platform/yolov8fire/ultralytics/engine/predictor.py", line 204, in __call__
+    return list(self.stream_inference(source, model, *args, **kwargs))  # merge list of Result into one
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 45, in generator_context
+    response = gen.send(None)
+  File "/sjxy004/platform/yolov8fire/ultralytics/engine/predictor.py", line 254, in stream_inference
+    self.setup_source(source if source is not None else self.args.source)
+  File "/sjxy004/platform/yolov8fire/ultralytics/engine/predictor.py", line 228, in setup_source
+    self.dataset = load_inference_source(
+  File "/sjxy004/platform/yolov8fire/ultralytics/data/build.py", line 180, in load_inference_source
+    dataset = LoadImages(source, vid_stride=vid_stride)
+  File "/sjxy004/platform/yolov8fire/ultralytics/data/loaders.py", line 290, in __init__
+    raise FileNotFoundError(f"{p} does not exist")
+FileNotFoundError: /sjxy004/platform/yolov8fire/ultralytics/assets/bus.jpg does not exist

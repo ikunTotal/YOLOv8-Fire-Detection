@@ -1,0 +1,9 @@
+# Fire Detection Dataset Configuration
+# Use absolute paths to avoid ambiguity across environments.
+train: /root/yolov8fire/datasets/firedetn/autosplit_train.txt
+val: /root/yolov8fire/datasets/firedetn/autosplit_val.txt
+test: /root/yolov8fire/datasets/firedetn/autosplit_test.txt
+
+# Classes
+nc: 1  # number of classes
+names: ['fire']  # class names

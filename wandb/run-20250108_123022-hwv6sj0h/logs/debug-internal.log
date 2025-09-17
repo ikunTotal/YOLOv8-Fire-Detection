@@ -1,0 +1,21 @@
+{"time":"2025-01-08T12:30:23.01676108Z","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2025-01-08T12:30:23.016793702Z","level":"INFO","msg":"created symlink","path":"/sjxy004/platform/yolov8fire/wandb/run-20250108_123022-hwv6sj0h/logs/debug-core.log"}
+{"time":"2025-01-08T12:30:23.073826272Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2025-01-08T12:30:23.118381937Z","level":"INFO","msg":"created new stream","id":"hwv6sj0h"}
+{"time":"2025-01-08T12:30:23.118469694Z","level":"INFO","msg":"stream: started","id":"hwv6sj0h"}
+{"time":"2025-01-08T12:30:23.118490556Z","level":"INFO","msg":"handler: started","stream_id":{"value":"hwv6sj0h"}}
+{"time":"2025-01-08T12:30:23.118520587Z","level":"INFO","msg":"sender: started","stream_id":{"value":"hwv6sj0h"}}
+{"time":"2025-01-08T12:30:23.118519571Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hwv6sj0h"}}
+{"time":"2025-01-08T12:30:23.6162851Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-01-08T12:30:23.638645274Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-08T12:30:28.264023411Z","level":"INFO","msg":"stream: closing","id":"hwv6sj0h"}
+{"time":"2025-01-08T12:30:28.264112222Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-08T12:30:28.2670092Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-08T12:30:28.618897477Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-01-08T12:30:28.618922073Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-01-08T12:30:28.618928669Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-01-08T12:30:29.337643283Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-08T12:30:29.834792611Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"hwv6sj0h"}}
+{"time":"2025-01-08T12:30:29.834892141Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"hwv6sj0h"}}
+{"time":"2025-01-08T12:30:29.834923638Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"hwv6sj0h"}}
+{"time":"2025-01-08T12:30:29.843720522Z","level":"INFO","msg":"stream: closed","id":"hwv6sj0h"}
